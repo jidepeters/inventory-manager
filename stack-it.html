@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>STACK-IT INVENTORY MANAGER</title>
+	<link rel="stylesheet" type="text/css" href = "stack.css" media = "screen" />
+    
+</head>
+<body>
+	<header>
+	      <h1>STACK-IT!</h1>
+	      <h2>Inventory Manager for SMEs</h2>
+        </header>
+<br>
+<br>
+<br>
+<br>
+	<section>
+	      <h3><i>STACK-IT</i> is an inventory manager for small-and-medium-scale enterprises.</h3> 
+	      <p>Are you a small business owner? Do you run a supermarket or a repair shop?</p>
+	      <p>Do you struggle with keeping track of your goods or even your tools? <b>STACK-IT</b> Inventory Manager is just the answer you need.</P>  
+              <br>
+              <p><b>STACK-IT</b> is a store management solution that provides you with a virtual store for your inventory records. Convenient and easy to use, <b>STACK-IT</b> requires no technical expertise. What's more, it's cheap and works offline.</p>
+	      <br>
+			<h3>Scroll down. Try it NOW!</h3>
+        </section>
+
+	<hr>
+
+       <div class = "wrapper"> 
+       <div class = "sidebar">
+       <section>
+       
+       <form id = "add">
+	   <h3>Add an item:</h3>
+<br>
+              <table>
+	        <tbody>
+                   
+		   <tr>
+		    <td>
+			<label for = "item-name" class = "required"><b>Name:</b></label>
+		    </td>
+		    <td>
+			<input type = "text" size = "30" id = "item-name" name = "item-name"  max = "200" placeholder = "Name of Item" class = "aster" required /> 
+                        <span id = "note1"></span> 
+		    </td>
+		    </tr>
+		    <tr>
+		    <td>
+                       <label for = "item-quantity" class = "required"><b>Quantity:</b></label>
+		    </td>
+		    <td>
+		       <input type = "number" size = "30" id = "item-quantity" name = "item-quantity" placeholder = "Number of Units" class = "quant" />
+                       <span id = "note2"></span> 
+		    </td> 
+                    </td>
+                    </tr>
+		    <tr>
+		    <td>
+		       <label for = "item-price">(Optional)<b>Price:</b></label>
+                    </td>
+		    <td>
+		       <input type = "text" size = "30" id = "item-price" name = "item-price" class = "pryce" />
+                        <span id = "note"></span>
+                    </td>
+                    </tr>                    
+                </tbody>
+             </table>
+                     
+          <div id = "submit-button">
+             <input type = "button" id = "add-button" value = "Add Item" onclick = addItem() />
+             <input type = "reset" class = "button" value = "Reset">
+          </div>
+        </form>
+     </section>
+    </div>
+
+<br />
+<br />
+<br />
+
+      <div class = "content">      
+      <section id = "list">
+      <form id = "search">
+	        <input type = "button" id = "store-list" class = "store-button" value = "List Store Items" onclick = displayItemList() />
+	           <div id = "msg"></div>
+		    <div>
+                     <ul id = "close-store">
+                        <ul id = "store-items-list">
+                        </ul>
+                     </ul>
+	            </div>
+      </form>
+     </section>
+     </div>
+   </div>
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br /> 
+<br />
+<br /> 
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<br />
+<br />                  
+
+
+	<footer>&copy; Jide Peters 2019 Contact: pyramidj2000@yahoo.com  Tel: 08069328739</footer>
+
+<script type = "text/javascript" src = "stack.js"></script>
+
+</body>
+</html>
