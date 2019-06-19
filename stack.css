@@ -1,0 +1,178 @@
+
+
+
+body {
+   background-color: #046972;
+}
+
+
+header {
+   width: 400px;
+   color: white;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+h1 {
+  font-family: bold serif;
+  font-size: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+h2 {
+  font-family: Arial, sans serif;
+  padding-top: 0px;
+  margin-top: 0px;
+  float: right;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-family: Arial, sans serif;  
+}
+
+section {
+   width: 80%;
+   color: white;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+p {
+  font-size: 1.6em;
+  line-height: 1.4em;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  word-spacing: 0.2em;
+}
+
+
+.required: after {
+    content: *;
+    color: red;
+}
+
+
+form {
+    line-height: 2em;
+    font-size: 1em;
+}
+
+
+input {
+  padding: 0.3em;
+  border-color: #cccccc;
+  border-radius: 0.3em;
+  margin: 10px;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+
+#note1 {
+   line-height: 1em;
+   font-size: 0.6em;
+   color: red;
+}
+
+
+#note2 {
+   line-height: 0.8em;
+   font-size: 0.6em;
+   color: red;
+}
+
+
+#note {
+  line-height: 1em;
+  font-size: 0.6em;
+  color: white;
+  margin-left : 140px;
+}
+
+#msg {
+  font-size: 1em;
+  color: white;
+}
+
+.wrapper {
+    width: 900px;
+    padding: 80px;
+    margin-top: 0px;
+    
+}
+
+.sidebar {
+   width: 300px;
+   float: left;
+   padding-left: 20px;
+}
+
+
+.content {
+   width: 400px;
+   float: right;
+   padding-left: 20px;
+}
+
+
+div #submit-button {
+    width: 230px;
+    margin-top: 1em;
+    margin-left: 120px;
+}
+
+
+div #submit-button > #add-button {
+   padding: 7px;
+   float: left;   
+}
+
+div #submit-button > .button {
+   padding: 7px;
+   float: right;
+}
+
+
+.store-button {
+   margin-left : 120px;
+   padding: 7px;
+}
+
+
+#msg {
+   line-height: 1.2em;
+   font-size: 0.8em;
+}
+
+
+#store-items-list {
+   line-height: 1.2em;
+   font-size: 0.8em;
+}
+
+
+
+footer {
+   width: 80%;
+   background-color: #047235;
+   color: white;
+   height: 20px;
+   padding: 10px;
+   margin-top: 4000px;
+   margin-right: auto;
+   margin-left: auto;
+   word-spacing: 0.2em;
+}
+
+
+
+
